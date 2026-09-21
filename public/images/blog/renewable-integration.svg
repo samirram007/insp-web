@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d2140"/>
+      <stop offset="1" stop-color="#2b5aa8"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="480" fill="url(#bg4)"/>
+  <circle cx="180" cy="150" r="70" fill="#27cbff" opacity="0.9"/>
+  <g stroke="#27cbff" stroke-width="6" stroke-linecap="round" opacity="0.9">
+    <line x1="180" y1="48" x2="180" y2="30"/>
+    <line x1="252" y1="150" x2="270" y2="150"/>
+    <line x1="180" y1="222" x2="180" y2="240"/>
+    <line x1="108" y1="150" x2="90" y2="150"/>
+    <line x1="231" y1="99" x2="244" y2="86"/>
+    <line x1="129" y1="99" x2="116" y2="86"/>
+    <line x1="231" y1="201" x2="244" y2="214"/>
+    <line x1="129" y1="201" x2="116" y2="214"/>
+  </g>
+  <g stroke="rgba(255,255,255,0.85)" stroke-width="8" stroke-linecap="round">
+    <line x1="500" y1="120" x2="500" y2="330"/>
+    <line x1="500" y1="120" x2="440" y2="158"/>
+    <line x1="500" y1="120" x2="560" y2="158"/>
+    <line x1="500" y1="120" x2="470" y2="60"/>
+  </g>
+  <circle cx="500" cy="120" r="12" fill="#ffffff"/>
+  <g stroke="rgba(94,178,252,0.5)" stroke-width="2" fill="none">
+    <path d="M40 360 Q200 300 360 350 T680 340"/>
+    <path d="M40 396 Q200 336 360 386 T680 376"/>
+  </g>
+  <text x="90" y="440" font-family="Poppins, Arial, sans-serif" font-size="26" font-weight="700" fill="rgba(255,255,255,0.95)">Renewables on the Grid</text>
+  <text x="90" y="466" font-family="Inter, Arial, sans-serif" font-size="15" fill="rgba(255,255,255,0.7)">Balancing solar &amp; wind with demand</text>
+</svg>

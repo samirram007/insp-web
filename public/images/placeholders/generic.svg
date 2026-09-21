@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#513ebd"/>
+      <stop offset="1" stop-color="#6d5df1"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="480" fill="url(#g)"/>
+  <circle cx="600" cy="90" r="150" fill="rgba(255,255,255,0.10)"/>
+  <circle cx="90" cy="420" r="110" fill="rgba(255,255,255,0.08)"/>
+  <text x="360" y="238" font-family="Poppins, Arial, sans-serif" font-size="34" font-weight="700" fill="rgba(255,255,255,0.95)" text-anchor="middle">Inspirigence Works</text>
+  <text x="360" y="286" font-family="Inter, Arial, sans-serif" font-size="18" fill="rgba(255,255,255,0.8)" text-anchor="middle">Image placeholder</text>
+</svg>

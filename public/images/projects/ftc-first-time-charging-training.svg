@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="540" viewBox="0 0 720 540">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101438"/>
+      <stop offset="1" stop-color="#4335c9"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="540" fill="url(#bg)"/>
+  <!-- transmission towers -->
+  <g stroke="rgba(255,255,255,0.85)" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M140 200 L100 420 M140 200 L180 420 M100 420 L140 250 M180 420 L140 250"/>
+    <path d="M110 290 L170 290 M104 340 L176 340"/>
+    <path d="M480 160 L440 420 M480 160 L520 420 M440 420 L480 210 M520 420 L480 210"/>
+    <path d="M448 260 L512 260 M442 320 L518 320"/>
+  </g>
+  <!-- power lines -->
+  <g stroke="#27cbff" stroke-width="2.5" fill="none" opacity="0.85">
+    <path d="M140 230 Q310 300 480 190"/>
+    <path d="M140 275 Q310 350 480 245"/>
+  </g>
+  <!-- charging bolt -->
+  <path d="M320 150 l-45 95 h35 l-20 80 60 -105 h-35 l25 -70 z" fill="#27cbff" opacity="0.95"/>
+  <text x="90" y="480" font-family="Poppins, Arial, sans-serif" font-size="27" font-weight="700" fill="rgba(255,255,255,0.95)">FTC – First Time Charging</text>
+  <text x="90" y="508" font-family="Inter, Arial, sans-serif" font-size="15" fill="rgba(255,255,255,0.7)">Capacity building for POWERGRID transmission crews</text>
+</svg>
