@@ -37,12 +37,5 @@ export const SERVICES: Service[] = [
     href: '/service/team-practical-views',
     image: null,
   },
-  {
-    slug: 'scheduling-software',
-    title: 'Scheduling Software',
-    short:
-      'Cost-efficient AI algorithm-based energy scheduling driven by millions of data points.',
-    href: '/service/scheduling-software',
-    image: null,
-  },
+  
 ]

@@ -2,7 +2,7 @@ export const SITE = {
   name: 'Inspirigence Works',
   tagline: 'Inspiring Intelligence Redefined',
   email: 'info@inspirigenceworks.com',
-  phone: '+91 33 4004 9121',
+  phone: '+91 8910599226',
   address: '122(465) Shaheed, Sahid Ganesh Dutta Rd, Fairtputaly, Birati, North Dumdum, West Bengal 700051',
   addressShort: 'Birati, North Dumdum, West Bengal',
   mapEmbedUrl:
