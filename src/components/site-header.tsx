@@ -155,13 +155,13 @@ export function SiteHeader() {
 
   return (
     <header
-      className={`fixed top-0 z-40 h-28 w-full border-b bg-white/10 backdrop-blur transition-shadow ${
-        scrolled ? 'h-20 bg-white/90 border-line-soft shadow-sm shadow-black/5' : 'border-transparent'
+      className={`fixed top-0 z-40 h-28 w-full flex justify-center border-b bg-white/0  ease-out transition-shadow ${
+        scrolled ? 'h-24!  bg-white/90 border-line-soft shadow-sm shadow-black/5' : 'border-transparent'
       }`}
     >
-      <div className="site-container flex  items-center justify-between gap-4">
+      <div className="site-header-container flex  items-center justify-between gap-4">
         <Link to="/" className="flex shrink-0 items-center" aria-label="Inspirigence Works home">
-          <img src="/images/logo.png" alt="Inspirigence Works" className="h-11 w-auto" />
+          <img src="/images/logo.png" alt="Inspirigence Works" className="w-72 md:w-auto" />
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Main">

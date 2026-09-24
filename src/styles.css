@@ -136,7 +136,14 @@ html {
 }
 
 /* ---------- shared layout helpers ---------- */
-
+.site-header-container {
+  width: min(1980px, calc(100% - 6rem));
+  margin-inline: auto;
+}
+.site-hero-container {
+  width: min(1980px, calc(100% - 6rem));
+  margin-inline: auto;
+}
 .site-container {
   width: min(1200px, calc(100% - 2.5rem));
   margin-inline: auto;
@@ -265,7 +272,7 @@ html {
   gap: 0.3rem;
   border-radius: 0.6rem;
   padding: 0.5rem 0.85rem;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: #3c4257;
   transition:
@@ -278,7 +285,7 @@ html {
 }
 .nav-link.is-active {
   background: var(--brand-soft);
-  color: var(--brand);
+  color: var(--brand); 
 }
 
 .dropdown-item {

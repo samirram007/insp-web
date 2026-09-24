@@ -4,6 +4,7 @@ export type HeroSlide = {
   highlight?: 'first' | 'second'
   link: { label: string; to: string; params?: Record<string, string> }
   image: string | null
+  visible: boolean
 }
 
 export const HERO_SLIDES: HeroSlide[] = [
@@ -12,19 +13,22 @@ export const HERO_SLIDES: HeroSlide[] = [
     titleLines: ['AI-Enabled', 'Power Solutions'],
     highlight: 'first',
     link: { label: 'Learn more', to: '/service/forecasting-predictions' },
-    image: '/images/banner2.jpg',
+    image: '/images/hero/banner2-new.webp',
+    visible:true,
   },
   {
     kicker: 'Advisory & Consultancy',
     titleLines: ['Energy Management,', 'Redefined'],
     link: { label: 'About us', to: '/about-us' },
-    image: '/images/pic1.png',
+    image: '/images/hero/pic1.webp',
+    visible:true,
   },
   {
     kicker: 'foreDAM · foreRTM',
     titleLines: ['Power Market', 'Prediction'],
     link: { label: 'Explore projects', to: '/projects/$slug', params: { slug: 'forertm' } },
-    image: '/images/pic2.png',
+    image: '/images/hero/pic3-new.webp',
+    visible:true,
   },
 ]
 

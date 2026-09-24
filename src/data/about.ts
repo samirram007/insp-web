@@ -37,12 +37,12 @@ export const TEAM: TeamMember[] = [
     photo: null,
     bio: 'Having more than 35+ years of experience in NTPC, POWERGRID, NERLDC, ERLDC & NLDC. In POSOCO, he drives ideas for regulatory issues related to open access administration, Metering, Settlement and connectivity. He is instrumental in successfully introduction of AMR system in Eastern Region, Ancillary Service, various Market Operation activities such as SCED, power transfer to cross border countries (Bhutan, Nepal, Myanmar, Bangladesh etc.) in NLDC. He is a member of IEEE having more than 20 papers in National and International journals.',
   },
-  {
-    name: 'Shri Shubhasis Mishra',
-    role: 'Ph.D — Indian Institute of Management Calcutta',
-    photo: null,
-    bio: 'Winner of the prestigious POMS Emerging Economy Doctoral Scholar Award-2019 from Asia. B.Tech in Electrical Engineering from NIT Durgapur. PhD dissertation: A year-ahead hourly forecast of electricity demand considering multiple levels of seasonality. Assistant Professor of Data Science and Operations Management at Rastriya Vidyapeeth University, Bangalore.',
-  },
+  // {
+  //   name: 'Shri Shubhasis Mishra',
+  //   role: 'Ph.D — Indian Institute of Management Calcutta',
+  //   photo: null,
+  //   bio: 'Winner of the prestigious POMS Emerging Economy Doctoral Scholar Award-2019 from Asia. B.Tech in Electrical Engineering from NIT Durgapur. PhD dissertation: A year-ahead hourly forecast of electricity demand considering multiple levels of seasonality. Assistant Professor of Data Science and Operations Management at Rastriya Vidyapeeth University, Bangalore.',
+  // },
 ]
 
 export const VMV = [
@@ -80,7 +80,7 @@ export const TRANSFORMATION_PARAGRAPHS = [
   'Understanding the transition trends and identifying the true potential of machine learning, big data, advanced analytics, and other AI techniques in core functions of the energy sector, Inspirigence Works has been dedicatedly developing cutting-edge energy services and artificial intelligence based products under the complete guidance of “Team Practical Views” to make the design of the future energy system of the country more efficient, safe, secure, and cost-effective that delivers greater potential and operational benefits than ever realized.',
 ]
 
-export const SERVICES_PROVIDED_LIST = ['Scheduling Software', 'Team Practical Views', 'Forecasting & Predictions']
+export const SERVICES_PROVIDED_LIST = [ 'Team Practical Views', 'Forecasting & Predictions']
 
 export const ABOUT_INTRO = {
   eyebrow: 'WHO WE ARE',

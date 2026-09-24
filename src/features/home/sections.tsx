@@ -73,13 +73,15 @@ export function AboutSection() {
               {p}
             </p>
           ))}
-          <div className="mt-8">
+          
+        </div>
+        
+      </div>
+      <div className="mt-8 text-center ">
             <Link to="/about-us" className="btn-brand">
               Read More
             </Link>
           </div>
-        </div>
-      </div>
     </section>
   )
 }
@@ -95,11 +97,7 @@ export function WhyChooseSection() {
               {p}
             </p>
           ))}
-          <div className="mt-8">
-            <Link to="/service/team-practical-views" className="btn-brand">
-              Learn More
-            </Link>
-          </div>
+         
         </div>
         <div className="space-y-6">
           {WHY_FEATURES.map((f) => (
@@ -118,6 +116,11 @@ export function WhyChooseSection() {
           ))}
         </div>
       </div>
+       <div className="mt-8 text-center">
+            <Link to="/service/team-practical-views" className="btn-brand">
+              Learn More
+            </Link>
+          </div>
     </section>
   )
 }
@@ -177,13 +180,14 @@ export function StatsSection() {
               </div>
             ))}
           </div>
-          <div className="mt-8">
+          
+        </div>
+      </div>
+      <div className="mt-8 text-center">
             <Link to="/service/forecasting-predictions" className="btn-brand">
               Learn More
             </Link>
           </div>
-        </div>
-      </div>
     </section>
   )
 }
@@ -208,11 +212,7 @@ export function ForertmSection() {
             </a>
           </h3>
           <p className="mt-4 text-center font-semibold italic text-brand-strong">“{FORERTM_SECTION.quote}”</p>
-          <div className="mt-8">
-            <Link to="/projects/$slug" params={{ slug: 'forertm' }} className="btn-brand">
-              Learn More
-            </Link>
-          </div>
+          
         </div>
         <MediaImage
           src={FORERTM_SECTION.image}
@@ -221,6 +221,11 @@ export function ForertmSection() {
           className="w-full rounded-2xl border border-line-soft object-cover shadow-lg shadow-black/5"
         />
       </div>
+      <div className="mt-8 text-center">
+            <Link to="/projects/$slug" params={{ slug: 'forertm' }} className="btn-brand">
+              Learn More
+            </Link>
+          </div>
     </section>
   )
 }

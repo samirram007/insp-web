@@ -15,7 +15,7 @@ function ForecastingPredictions() {
   const related = SERVICES.filter((s) => s.slug !== 'forecasting-predictions')
   return (
     <>
-      <section className="bg-soft py-16">
+      <section className="bg-soft pt-36 py-16">
         <div className="site-container grid items-center gap-12 lg:grid-cols-2">
           <div>
             <span className="section-eyebrow">SERVICE</span>

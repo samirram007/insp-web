@@ -34,7 +34,7 @@ export function HeroSlider() {
 
   return (
     <section
-      className="relative overflow-hidden bg-[#0e1030]"
+      className="relative overflow-hidden bg-[#0e1030] "
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
       onFocus={() => setPaused(true)}
@@ -56,6 +56,7 @@ export function HeroSlider() {
       aria-label="Inspirigence Works highlights"
     >
       {HERO_SLIDES.map((slide, i) => (
+        slide.visible && (
         <div
           key={slide.kicker}
           aria-hidden={i !== index}
@@ -70,22 +71,29 @@ export function HeroSlider() {
             }`}
             loading={i === 0 ? 'eager' : 'lazy'}
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0e1030]/95 via-[#0e1030]/75 to-[#0e1030]/30" />
+          <div className="absolute sr-only inset-0 bg-gradient-to-r from-[#0e1030]/95 via-[#0e1030]/75 to-[#0e1030]/30" />
         </div>
+        )
       ))}
 
-      <div className="site-container relative flex min-h-[480px] flex-col justify-center py-20 md:min-h-[560px]">
+      <div className="site-hero-container relative flex h-[95dvh]   flex-col justify-center py-20 md:min-h-[560px]">
         {HERO_SLIDES.map(
           (slide, i) =>
-            i === index && (
+            i === index && slide.visible && (
               <div key={slide.kicker} className="rise-in max-w-2xl">
-                <p className="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-cyan-300">{slide.kicker}</p>
-                <h1 className="text-4xl font-extrabold leading-tight text-white sm:text-5xl lg:text-6xl">
-                  <span className={slide.highlight === 'first' ? 'text-cyan-300' : undefined}>
+                <p className={`mb-3 text-sm font-semibold uppercase tracking-[0.25em] ${slide.highlight === 'first' ? 'text-slate-900' : 'text-cyan-300'}`}>{slide.kicker}</p>
+                <h1 className="text-4xl text-shadow-md font-extrabold leading-tight text-white sm:text-5xl lg:text-6xl">
+                <span className={`text-shadow-md ${slide.highlight === 'first' ? 'text-brand' : undefined}`}>
+
                     {slide.titleLines[0]}
-                  </span>
+                </span>
+                 
                   <br />
-                  {slide.titleLines[1]}
+                  <span className={`text-shadow-md 
+                    ${slide.highlight === 'first' ? 'text-brand' : undefined}`
+                    }>
+                    {slide.titleLines[1]}
+                  </span>
                 </h1>
                 <div className="mt-8">
                   <Link to={slide.link.to} params={slide.link.params as never} className="btn-brand touch-manipulation">
@@ -102,7 +110,7 @@ export function HeroSlider() {
           type="button"
           onClick={prev}
           aria-label="Previous slide"
-          className="absolute left-2 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white/10 p-3 text-white backdrop-blur transition-all hover:scale-110 hover:bg-white/25 active:scale-95 sm:left-4"
+          className="absolute sr-only left-2 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white/10 p-3 text-white backdrop-blur transition-all hover:scale-110 hover:bg-white/25 active:scale-95 sm:left-4"
         >
           <HeroChevron direction="left" />
         </button>
@@ -110,15 +118,17 @@ export function HeroSlider() {
           type="button"
           onClick={next}
           aria-label="Next slide"
-          className="absolute right-2 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white/10 p-3 text-white backdrop-blur transition-all hover:scale-110 hover:bg-white/25 active:scale-95 sm:right-4"
+          className="absolute sr-only right-2 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white/10 p-3 text-white backdrop-blur transition-all hover:scale-110 hover:bg-white/25 active:scale-95 sm:right-4"
         >
           <HeroChevron direction="right" />
         </button>
 
         {/* Dots */}
-        <div className="absolute bottom-6 left-0 right-0">
-          <div className="site-container flex gap-2">
+        <div className="absolute bottom-6   left-0 right-0">
+          <div className="site-container flex justify-center gap-2">
+            
             {HERO_SLIDES.map((slide, i) => (
+              slide.visible && (
               <button
                 key={slide.kicker}
                 type="button"
@@ -126,9 +136,10 @@ export function HeroSlider() {
                 aria-label={`Go to slide ${i + 1}`}
                 aria-current={i === index}
                 className={`h-2 rounded-full transition-all duration-300 ${
-                  i === index ? 'w-8 bg-cyan-300' : 'w-2 bg-white/40 hover:bg-white/70'
+                  i === index ? 'w-8 bg-cyan-300' : 'w-2 shadow-lg cursor-pointer bg-white border-2 border-white hover:bg-white/70'
                 }`}
               />
+              )
             ))}
           </div>
         </div>

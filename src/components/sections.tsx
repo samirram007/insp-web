@@ -76,7 +76,7 @@ export function PageHero({
   variant?: 'azure' | 'sky' | 'indigo' | 'cerulean' | 'steel'
 }) {
   return (
-    <section className={`page-hero page-hero--${variant} relative overflow-hidden border-b border-line-soft`}>
+    <section className={`page-hero  pt-12  page-hero--${variant} relative overflow-hidden border-b border-line-soft`}>
       {/* smooth brand gradient (per variant, in CSS) */}
       <div aria-hidden="true" className="pointer-events-none absolute inset-0" />
       {/* soft colour glows (tinted per variant, in CSS) */}

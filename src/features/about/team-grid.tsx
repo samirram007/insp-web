@@ -17,7 +17,7 @@ export function TeamGrid() {
     <section className="site-container py-20">
       <span className="section-eyebrow">TEAM PRACTICAL VIEWS</span>
       <h2 className="section-title mt-2 text-3xl sm:text-4xl">100+ years of practical experience in a capsule</h2>
-      <div className="reveal-stagger mt-12 grid gap-6 sm:gap-8 md:grid-cols-2 xl:grid-cols-3">
+      <div className="reveal-stagger mt-12 grid gap-6   sm:gap-8 md:grid-cols-2 xl:grid-cols-3">
         {TEAM.map((member) => (
           <div key={member.name} className="card-lift overflow-hidden rounded-2xl border border-line-soft bg-white shadow-sm">
             <div className="aspect-[4/3] overflow-hidden bg-soft">

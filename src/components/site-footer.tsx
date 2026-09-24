@@ -4,7 +4,7 @@ import { SITE, USEFUL_LINKS } from '#/data/site'
 const footerNav = [
   { label: 'Service', href: '/service' },
   { label: 'Projects', href: '/projects' },
-  { label: 'Blog', href: '/blog' },
+  // { label: 'Blog', href: '/blog' },
   { label: 'Video', href: '/video' },
   { label: 'Contact Us', href: '/contact-us' },
 ]
@@ -15,7 +15,7 @@ export function SiteFooter() {
       <div className="site-container grid gap-12 py-14 md:grid-cols-[1.2fr_1fr_1fr]">
         <div>
           <Link to="/" aria-label="Inspirigence Works home">
-            <img src="/images/footer_logo.png" alt="Inspirigence Works" className="h-14 w-auto" />
+            <img src="/images/footer_logo.png" alt="Inspirigence Works" className="h-14 w-auto brightness-0 invert " />
           </Link>
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/60">{SITE.tagline}</p>
           <p className="mt-2 text-sm text-white/60">
@@ -64,12 +64,12 @@ export function SiteFooter() {
       </div>
 
       <div className="border-t border-white/10">
-        <div className="site-container flex flex-col items-center justify-between gap-3 py-5 text-sm sm:flex-row">
+        <div className="site-container flex flex-col items-center justify-center gap-3 py-5 text-sm sm:flex-row">
           <p>
             ©{new Date().getFullYear()} <span className="font-semibold text-white">Inspirigence Works</span>, All
             Rights Reserved
           </p>
-          <p className="text-white/50">Designed with ⚡ for the power sector</p>
+          {/* <p className="text-white/50">Designed with ⚡ for the power sector</p> */}
         </div>
       </div>
     </footer>
