@@ -17,25 +17,38 @@ export function TeamGrid() {
     <section className="site-container py-20">
       <span className="section-eyebrow">TEAM PRACTICAL VIEWS</span>
       <h2 className="section-title mt-2 text-3xl sm:text-4xl">100+ years of practical experience in a capsule</h2>
-      <div className="reveal-stagger mt-12 grid gap-6   sm:gap-8 md:grid-cols-2 xl:grid-cols-3">
-        {TEAM.map((member) => (
-          <div key={member.name} className="card-lift overflow-hidden rounded-2xl border border-line-soft bg-white shadow-sm">
-            <div className="aspect-[4/3] overflow-hidden bg-soft">
-              <MediaImage
-                src={member.photo}
-                alt={member.name}
-                seed={member.name}
-                className="h-full w-full object-cover object-top"
-              />
-            </div>
-            <div className="p-6">
-              <h3 className="font-bold text-ink">{member.name}</h3>
-              <p className="mt-0.5 text-sm font-semibold text-brand">{member.role}</p>
-              <p className="mt-3 text-sm leading-relaxed text-body-text">{member.bio}</p>
-            </div>
-          </div>
-        ))}
+      <div className="reveal-stagger mt-12 grid gap-6 sm:gap-8 md:grid-cols-2 xl:grid-cols-6">
+  {TEAM.map((member, index) => (
+    <div
+      key={member.name}
+      className={`
+        card-lift overflow-hidden rounded-2xl border border-line-soft bg-white shadow-sm
+        xl:col-span-2
+        ${index === 3 ? "xl:col-start-2" : ""}
+        ${index === 4 ? "xl:col-start-4" : ""}
+      `}
+    >
+      <div className="aspect-[4/3] overflow-hidden bg-soft">
+        <MediaImage
+          src={member.photo}
+          alt={member.name}
+          seed={member.name}
+          className="h-full w-full object-cover object-top"
+        />
       </div>
+
+      <div className="p-6">
+        <h3 className="font-bold text-ink">{member.name}</h3>
+        <p className="mt-0.5 text-sm font-semibold text-brand">
+          {member.role}
+        </p>
+        <p className="mt-3 text-sm leading-relaxed text-body-text">
+          {member.bio}
+        </p>
+      </div>
+    </div>
+  ))}
+</div>
     </section>
   )
 }
@@ -115,11 +128,7 @@ export function ServicesProvidedSection() {
               </div>
             ))}
           </div>
-          <div className="mt-8">
-            <Link to="/service" className="btn-brand">
-              Explore Services
-            </Link>
-          </div>
+         
         </div>
         <MediaImage
           src={null}
@@ -128,6 +137,11 @@ export function ServicesProvidedSection() {
           className="w-full rounded-2xl border border-line-soft object-cover shadow-lg shadow-black/5"
         />
       </div>
+       <div className="mt-8 flex justify-center">
+            <Link to="/service" className="btn-brand">
+              Explore Services
+            </Link>
+          </div>
     </section>
   )
 }

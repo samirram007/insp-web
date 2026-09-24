@@ -63,7 +63,7 @@ export function AboutSection() {
           src={ABOUT_SECTION.image}
           alt="Inspirigence Works platform practical view"
           seed="about-home"
-          className="w-full rounded-2xl border border-line-soft object-cover shadow-lg shadow-black/5"
+          className="w-full rounded-2xl   "
         />
         <div>
           <span className="section-eyebrow">{ABOUT_SECTION.eyebrow}</span>
@@ -136,7 +136,7 @@ function FeatureCarousel() {
   }, [])
 
   return (
-    <div className="relative overflow-hidden rounded-2xl border border-line-soft shadow-lg shadow-black/5">
+    <div className="relative overflow-hidden rounded-2xl ">
       <div
         className="flex transition-transform duration-500 ease-out"
         style={{ transform: `translateX(-${index * 100}%)` }}

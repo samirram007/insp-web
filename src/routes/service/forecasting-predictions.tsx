@@ -45,13 +45,13 @@ function ForecastingPredictions() {
               Auspicious day of Good Friday, 2nd April 2021.
             </strong>
           </p>
-          <h2 className="text-center">
+          <h2 className="text-center sr-only">
             <a href={SITE.powerMarketUrl} target="_blank" rel="noreferrer">
               Power Market Prediction
             </a>
           </h2>
         </div>
-        <div className="mt-10">
+        <div className="mt-10 flex flex-wrap gap-4 justify-center">
           <Link to="/projects/$slug" params={{ slug: 'foredam-the-game-changer' }} className="btn-brand">
             Learn More
           </Link>

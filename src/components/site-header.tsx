@@ -160,8 +160,8 @@ export function SiteHeader() {
       }`}
     >
       <div className="site-header-container flex  items-center justify-between gap-4">
-        <Link to="/" className="flex shrink-0 items-center" aria-label="Inspirigence Works home">
-          <img src="/images/logo.png" alt="Inspirigence Works" className="w-72 md:w-auto" />
+        <Link to="/" className="flex shrink-2 items-center" aria-label="Inspirigence Works home">
+          <img src="/images/logo.png" alt="Inspirigence Works" className="w-auto" />
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Main">

@@ -2,10 +2,11 @@ import { Link } from '@tanstack/react-router'
 import { SITE, USEFUL_LINKS } from '#/data/site'
 
 const footerNav = [
+  { label: 'About Us', href: '/about-us' },
   { label: 'Service', href: '/service' },
   { label: 'Projects', href: '/projects' },
   // { label: 'Blog', href: '/blog' },
-  { label: 'Video', href: '/video' },
+  // { label: 'Video', href: '/video' },
   { label: 'Contact Us', href: '/contact-us' },
 ]
 
@@ -14,8 +15,9 @@ export function SiteFooter() {
     <footer className="mt-24 bg-footer-bg text-white/80">
       <div className="site-container grid gap-12 py-14 md:grid-cols-[1.2fr_1fr_1fr]">
         <div>
-          <Link to="/" aria-label="Inspirigence Works home">
+          <Link to="/" aria-label="Inspirigence Works home" className="relative flex items-center">
             <img src="/images/footer_logo.png" alt="Inspirigence Works" className="h-14 w-auto brightness-0 invert " />
+            <img src="/images/title-logo.png" alt="Inspirigence Works" className="h-14 w-auto absolute " />
           </Link>
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/60">{SITE.tagline}</p>
           <p className="mt-2 text-sm text-white/60">

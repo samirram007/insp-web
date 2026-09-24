@@ -20,11 +20,7 @@ function ConsultancyServices() {
               Experienced professionals to prescribe accurate actions &amp; assist on intelligent energy management.
               Our verified consultants work hands-on with utilities to translate data into operational decisions.
             </p>
-            <div className="mt-8">
-              <Link to="/contact-us" className="btn-brand">
-                Talk to our experts
-              </Link>
-            </div>
+            
           </div>
           <MediaImage
             src={null}
@@ -33,6 +29,11 @@ function ConsultancyServices() {
             className="w-full rounded-2xl border border-line-soft object-cover shadow-lg shadow-black/5"
           />
         </div>
+        <div className="mt-8 flex justify-center">
+              <Link to="/contact-us" className="btn-brand">
+                Talk to our experts
+              </Link>
+            </div>
       </section>
 
       <section className="site-container py-20">

@@ -21,6 +21,7 @@ export type NavItem = {
 }
 
 export const NAV: NavItem[] = [
+  { label: 'Home', href: '/' },
   { label: 'About Us', href: '/about-us' },
   {
     label: 'Service',

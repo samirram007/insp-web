@@ -21,11 +21,7 @@ function TeamPracticalViews() {
               has teamed up with young professional experts in statistical science and software development —
               experienced professionals to prescribe accurate actions.
             </p>
-            <div className="mt-8">
-              <Link to="/about-us" className="btn-brand">
-                Meet the team
-              </Link>
-            </div>
+            
           </div>
           <MediaImage
             src={null}
@@ -34,6 +30,11 @@ function TeamPracticalViews() {
             className="w-full rounded-2xl border border-line-soft object-cover shadow-lg shadow-black/5"
           />
         </div>
+        <div className="mt-8 flex justify-center">
+              <Link to="/about-us" className="btn-brand">
+                Meet the team
+              </Link>
+            </div>
       </section>
 
       <section className="site-container py-20">
