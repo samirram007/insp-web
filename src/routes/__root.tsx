@@ -52,12 +52,12 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
 			},
 			{
 				rel: "icon",
-				type: "image/png",
-				href: "/images/title-logo.png",
+				type: "image/webp",
+				href: "/images/title-logo.webp",
 			},
 			{
 				rel: "apple-touch-icon",
-				href: "/images/title-logo.png",
+				href: "/images/title-logo.webp",
 			},
 		],
 	}),

@@ -24,7 +24,7 @@ function TeamPracticalViews() {
             
           </div>
           <MediaImage
-            src={null}
+            src={'/images/team-practical-views.webp'}
             alt="Team Practical Views"
             seed="team-practical-views"
             className="w-full rounded-2xl border border-line-soft object-cover shadow-lg shadow-black/5"

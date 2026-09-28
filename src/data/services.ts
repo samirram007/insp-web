@@ -20,7 +20,7 @@ export const SERVICES: Service[] = [
     short:
       'We have provided Consultancy to the following organisations. Techno India, Aparaava through WindPlus, BALCO through SSP3L, Energizx',
     href: '/service/consultancy-services',
-    image: null,
+    image: '/images/consultancy.webp',
   },
   {
     slug: 'forecasting-predictions',
@@ -28,14 +28,14 @@ export const SERVICES: Service[] = [
     short:
       'ForeDaM is the hope for the financial turnaround in the power Market. ForeDaM is AI enabled Day Ahead Market Price and Volume Forecasting.',
     href: '/service/forecasting-predictions',
-    image: null,
+    image: '/images/forecasting-predictions.webp',
   },
   {
     slug: 'team-practical-views',
     title: 'Team Practical Views',
     short: 'Experienced professionals to prescribe accurate actions',
     href: '/service/team-practical-views',
-    image: null,
+    image: '/images/team-practical-views.webp',
   },
   
 ]

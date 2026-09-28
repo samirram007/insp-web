@@ -131,7 +131,7 @@ export function ServicesProvidedSection() {
          
         </div>
         <MediaImage
-          src={null}
+          src={'/images/services.webp'}
           alt="Inspirigence Works solutions"
           seed="redcap"
           className="w-full rounded-2xl border border-line-soft object-cover shadow-lg shadow-black/5"

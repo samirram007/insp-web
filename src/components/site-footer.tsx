@@ -16,8 +16,8 @@ export function SiteFooter() {
       <div className="site-container grid gap-12 py-14 md:grid-cols-[1.2fr_1fr_1fr]">
         <div>
           <Link to="/" aria-label="Inspirigence Works home" className="relative flex items-center">
-            <img src="/images/footer_logo.png" alt="Inspirigence Works" className="h-14 w-auto brightness-0 invert " />
-            <img src="/images/title-logo.png" alt="Inspirigence Works" className="h-14 w-auto absolute " />
+            <img src="/images/footer_logo.webp" alt="Inspirigence Works" className="h-14 w-auto brightness-0 invert " />
+            <img src="/images/title-logo.webp" alt="Inspirigence Works" className="h-14 w-auto absolute " />
           </Link>
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/60">{SITE.tagline}</p>
           <p className="mt-2 text-sm text-white/60">

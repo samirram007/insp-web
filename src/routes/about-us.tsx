@@ -20,7 +20,7 @@ function AboutUs() {
             <p className="mt-5 leading-relaxed text-body-text">{ABOUT_INTRO.body}</p>
           </div>
           <MediaImage
-            src={null}
+            src={ABOUT_INTRO.image}
             alt="Inspirigence Works team"
             seed="about-hero"
             className="w-full rounded-2xl border border-line-soft object-cover shadow-lg shadow-black/5"

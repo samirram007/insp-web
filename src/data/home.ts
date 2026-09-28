@@ -58,7 +58,7 @@ export const TRADING_STATS = [
 ]
 
 /** Feature carousel uses only images that exist locally. */
-export const FEATURE_SLIDES = ['/images/pic1.png', '/images/pic2.png', '/images/banner2.jpg']
+export const FEATURE_SLIDES = ['/images/pic-small.webp', '/images/pic-small-1.webp', '/images/hero/banner2-new.webp']
 
 export const ABOUT_SECTION = {
   eyebrow: 'Who we are',
@@ -67,7 +67,7 @@ export const ABOUT_SECTION = {
     'Inspirigence Works is an energy management software company offering a wide range of AI-enabled power utility solutions for clients from industries, Discoms, and SLDCs at the national and regional perspectives.',
     'At Inspirigence Works, our team continuously strives to improve and bring together the evolving energy infrastructure and ecosystem, latest AI techniques in terms of machine learning and big data, and innovative analytics software to meet your power utility goals.',
   ],
-  image: '/images/pic1.png',
+  image: '/images/who-we-are.webp',
 }
 
 export const WHY_CHOOSE_TEXT = [

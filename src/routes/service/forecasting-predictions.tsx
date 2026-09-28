@@ -25,7 +25,7 @@ function ForecastingPredictions() {
             </h2>
           </div>
           <MediaImage
-            src={null}
+            src={'/images/forecasting-predictions.webp'}
             alt="Forecasting & Predictions"
             seed="forecasting-banner"
             className="w-full rounded-2xl border border-line-soft object-cover shadow-lg shadow-black/5"

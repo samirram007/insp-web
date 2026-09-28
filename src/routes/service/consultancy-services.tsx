@@ -9,6 +9,7 @@ export const Route = createFileRoute('/service/consultancy-services')({ componen
 
 function ConsultancyServices() {
   const related = SERVICES.filter((s) => s.slug !== 'consultancy-services')
+  
   return (
     <>
       <section className="bg-soft pt-36 py-16">
@@ -23,7 +24,7 @@ function ConsultancyServices() {
             
           </div>
           <MediaImage
-            src={null}
+            src={'/images/consultancy.webp'}
             alt="Consultancy services"
             seed="consultancy"
             className="w-full rounded-2xl border border-line-soft object-cover shadow-lg shadow-black/5"

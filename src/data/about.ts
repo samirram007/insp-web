@@ -10,7 +10,7 @@ export const TEAM: TeamMember[] = [
   {
     name: 'Shri U.K. Verma',
     role: 'Ex. Executive Director (NLDC)',
-    photo: null,
+    photo: '/images/uk-verma-1.webp',
     bio: 'Having worked in various capacities at NHPC Ltd., POWERGRID, WRLDC, ERLDC, and NLDC, POSOCO, he has over 37 years of a wide ranging experience in several areas, including grid management, operation and maintenance of hydro power station, substations, installation of EMS and SCADA, and construction of distribution network in hilly terrain in Nepal. A member of IEEE, he also has more than 25 papers published in National Conferences.',
   },
   {
@@ -22,19 +22,19 @@ export const TEAM: TeamMember[] = [
   {
     name: 'Shri A. Gartia',
     role: 'Ex. Executive Director (SRLDC)',
-    photo: null,
+    photo: '/images/garita.webp',
     bio: 'With over 30 years of association with RLDC, POSOCO, he is part of the team that directly implemented various new technologies for the first time in the power sector of India such as DSM, ULDC, WAMS-PMU technology, web based energy scheduling, advanced protection monitoring systems, and many more. He is witness to the development of the power market and identifies all optimization opportunities through proper portfolio management.',
   },
   {
     name: 'Shri Nilratan Paul',
     role: 'Former General Manager, NERLDC POSOCO',
-    photo: null,
+    photo: '/images/nrpaul.webp',
     bio: 'Having more than 37+ years of experience in different fields. Also worked in ASEB, NTPC, POWERGRID in different capacities. Has long experience in Grid Management including Power System studies, Scheduling, Protection etc. In addition to above he has experience in Power Market operation; Contracts & Materials, O&M and Construction of EHV Substations and Transmissions Lines etc.',
   },
   {
     name: 'Shri Goutam Chakraborty',
     role: 'Former Chief General Manager, NLDC POSOCO',
-    photo: null,
+    photo: '/images/goutam.webp',
     bio: 'Having more than 35+ years of experience in NTPC, POWERGRID, NERLDC, ERLDC & NLDC. In POSOCO, he drives ideas for regulatory issues related to open access administration, Metering, Settlement and connectivity. He is instrumental in successfully introduction of AMR system in Eastern Region, Ancillary Service, various Market Operation activities such as SCED, power transfer to cross border countries (Bhutan, Nepal, Myanmar, Bangladesh etc.) in NLDC. He is a member of IEEE having more than 20 papers in National and International journals.',
   },
   // {
@@ -48,17 +48,17 @@ export const TEAM: TeamMember[] = [
 export const VMV = [
   {
     title: 'Our Vision',
-    image: null,
+    image: '/images/vision_2.webp',
     body: 'To help procure continuous reliable power, optimise the cost of power purchase, operate more sustainably, drive down energy operating costs, improve resilience, facilitate participation in energy markets, and exceed commitments with the most persuasive AI-powered products and software solutions.',
   },
   {
     title: 'Our Mission',
-    image: null,
+    image: '/images/mission.webp',
     body: 'To provide knowledge and expertise in the new power structure, address the various operational challenges while driving profitability, and accelerate the adoption of renewables with the aim of contributing towards the fulfilment of the renewable energy capacity target of 175 GW by 2022 in India.',
   },
   {
     title: 'Core Values',
-    image: null,
+    image: '/images/core-values.webp',
     body: '“Team Practical Views” believes that they are indebted to the community for the acquirement of their experiences and domain knowledge. Hence, the team wishes to lend pro bono cerebral support to the power sector and give back to the Society with selfless commitment.',
   },
 ]
@@ -86,6 +86,7 @@ export const ABOUT_INTRO = {
   eyebrow: 'WHO WE ARE',
   title: 'A Fusion of Intelligence, Experience, and Inspiration.',
   body: '“Team Practical Views” with more than 100 years of combined practical experiences in the power sector has teamed up with young professional experts in statistical science and software development to form Inspirigence Works, an energy management software company, offering a wide range of practical tips, AI-enabled power utility products and associated software solutions to help achieve tangible and demonstrable results for State governments, Discoms, holding companies of Discoms, SLDCs, and private distribution companies at the national and regional perspectives. The start-up has a sole objective to turn around the financial status of Discoms through their SLDCs, and also aims to benefit entities in Generation and Transmission along with a more focussed approach on the improvement of the renewable sector.',
+  image: '/images/who-we-are.webp',
 }
 
 export const WHY_ENGAGE_INTRO =
