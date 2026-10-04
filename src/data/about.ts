@@ -16,7 +16,7 @@ export const TEAM: TeamMember[] = [
   {
     name: 'Shri V.K. Shrivastava',
     role: 'Ex. Executive Director (WRLDC)',
-    photo: null,
+    photo: '/images/vk-srivastava.webp',
     bio: 'Instrumental in the implementation of the Golden Share Concept, the present independent Director in Madhya Pradesh Transmission Corporation has several record contributions to the formulation and implementation of Reserve shut down procedure, Renewable integration, and grid management in surplus situation. Having ensured 100% absorption of Renewable in the entire western region and NIL curtailment from 2017-2020, he also contributed in finalising the basic policy papers of POSOCO and MP Transco.',
   },
   {
